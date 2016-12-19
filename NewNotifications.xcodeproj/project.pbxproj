@@ -79,12 +79,10 @@
 		93603B8C1E0800680033C3B7 /* NewNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				93603BB21E081BEA0033C3B7 /* Model */,
+				93603BB11E081BD70033C3B7 /* View */,
+				93603BB01E081BC30033C3B7 /* Controller */,
 				93603BAF1E0816A60033C3B7 /* Resources */,
-				93603B8D1E0800680033C3B7 /* AppDelegate.swift */,
-				93603B8F1E0800680033C3B7 /* ViewController.swift */,
-				93603B911E0800680033C3B7 /* Main.storyboard */,
-				93603B941E0800680033C3B7 /* Assets.xcassets */,
-				93603B961E0800680033C3B7 /* LaunchScreen.storyboard */,
 			);
 			path = NewNotifications;
 			sourceTree = "<group>";
@@ -101,10 +99,36 @@
 		93603BAF1E0816A60033C3B7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				93603B941E0800680033C3B7 /* Assets.xcassets */,
 				93603B991E0800680033C3B7 /* Info.plist */,
 				93603BAD1E0816A10033C3B7 /* rick_grimes.gif */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		93603BB01E081BC30033C3B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93603B8D1E0800680033C3B7 /* AppDelegate.swift */,
+				93603B8F1E0800680033C3B7 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		93603BB11E081BD70033C3B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93603B961E0800680033C3B7 /* LaunchScreen.storyboard */,
+				93603B911E0800680033C3B7 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		93603BB21E081BEA0033C3B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
