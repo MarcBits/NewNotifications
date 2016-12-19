@@ -30,6 +30,17 @@ class ViewController: UIViewController {
 
     @IBAction func notifyButtonTapped(_ sender: UIButton) {
         
+        scheduleNotification(inSeconds: 5, completion: { success in
+            
+            if success {
+                
+                print("Successfully scheduled notification")
+            } else {
+                
+                print("Error scheduling notification")
+            }
+        })
+        
     }
     
     func scheduleNotification(inSeconds: TimeInterval, completion: @escaping (_ Success: Bool) -> ()) {
